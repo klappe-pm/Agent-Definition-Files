@@ -1,0 +1,20 @@
+# Reliability Configuration
+# Defaults are conservative and optional to change
+
+reliability:
+  retries:
+    enabled: true
+    max_attempts: 2
+    backoff_strategy: "exponential"  # Options: "fixed", "linear", "exponential"
+    initial_delay_seconds: 1
+    max_delay_seconds: 8
+  
+  rate_limits:
+    enabled: false
+    requests_per_minute: 120
+    burst: 20
+  
+  concurrency:
+    enabled: false
+    max_concurrent_requests: 4
+

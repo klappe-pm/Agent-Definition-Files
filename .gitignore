@@ -1,0 +1,62 @@
+# Obsidian
+.obsidian/
+!.obsidian/app.json
+!.obsidian/appearance.json
+.trash/
+Untitled*.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary
+*.tmp
+*.temp
+tmp/
+temp/
+cache/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv
+
+# Node.js
+node_modules/
+
+# Private
+*.private
+*.secret
+.env
+secrets/
+private/
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Backups
+*.bak
+*.backup
+
+# Project documentation files
+PROJECT_STRUCTURE.txt
+PROJECT_INDEX.txt
+PROJECT_INDEX.md
+GEMINI.md
+
+# Project-specific folders to exclude
+product-manager/
+research/
